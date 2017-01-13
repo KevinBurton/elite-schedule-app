@@ -9,7 +9,11 @@ import { NavController } from 'ionic-angular';
 export class Page1 {
 
   constructor(public navCtrl: NavController) {
-    
+
+  }
+
+  sayHello(){
+    console.log('Hello, World!');
   }
 
 }
